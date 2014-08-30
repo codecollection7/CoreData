@@ -22,6 +22,8 @@
 		04FB12F919AA88820017A611 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FB12DD19AA88810017A611 /* CoreData.framework */; };
 		04FB130119AA88820017A611 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04FB12FF19AA88820017A611 /* InfoPlist.strings */; };
 		04FB130319AA88820017A611 /* CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB130219AA88820017A611 /* CoreDataTests.m */; };
+		04FB130D19AA8A690017A611 /* Storyboard main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FB130C19AA8A690017A611 /* Storyboard main.storyboard */; };
+		04FB131019AA8E890017A611 /* CoredataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB130F19AA8E890017A611 /* CoredataViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		04FB12FE19AA88820017A611 /* CoreDataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataTests-Info.plist"; sourceTree = "<group>"; };
 		04FB130019AA88820017A611 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04FB130219AA88820017A611 /* CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTests.m; sourceTree = "<group>"; };
+		04FB130C19AA8A690017A611 /* Storyboard main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Storyboard main.storyboard"; sourceTree = "<group>"; };
+		04FB130E19AA8E890017A611 /* CoredataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoredataViewController.h; sourceTree = "<group>"; };
+		04FB130F19AA8E890017A611 /* CoredataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoredataViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +124,10 @@
 				04FB12E919AA88820017A611 /* CoredataAppDelegate.m */,
 				04FB12EE19AA88820017A611 /* Images.xcassets */,
 				04FB12EB19AA88820017A611 /* CoreData.xcdatamodeld */,
+				04FB130C19AA8A690017A611 /* Storyboard main.storyboard */,
 				04FB12E019AA88810017A611 /* Supporting Files */,
+				04FB130E19AA8E890017A611 /* CoredataViewController.h */,
+				04FB130F19AA8E890017A611 /* CoredataViewController.m */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -231,6 +239,7 @@
 			files = (
 				04FB12E419AA88810017A611 /* InfoPlist.strings in Resources */,
 				04FB12EF19AA88820017A611 /* Images.xcassets in Resources */,
+				04FB130D19AA8A690017A611 /* Storyboard main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04FB12E619AA88820017A611 /* main.m in Sources */,
+				04FB131019AA8E890017A611 /* CoredataViewController.m in Sources */,
 				04FB12EA19AA88820017A611 /* CoredataAppDelegate.m in Sources */,
 				04FB12ED19AA88820017A611 /* CoreData.xcdatamodeld in Sources */,
 			);
